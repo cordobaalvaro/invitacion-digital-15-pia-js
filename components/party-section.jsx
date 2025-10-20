@@ -28,9 +28,9 @@ export function PartySection() {
             <p className="text-muted-foreground text-base md:text-lg">{address}</p>
             <div className="mt-2">
               <div className="relative rounded-2xl overflow-hidden border border-border bg-muted/10">
-                <iframe title={`Mapa - ${placeName}`} src={`https://www.google.com/maps?q=${encodeURIComponent(mapsQuery)}&output=embed`} className="w-full h-[300px] md:h-[360px]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"/>
+                <iframe title="Mapa - Kali Eventos" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.66062344217357!2d-65.2400798892512!3d-26.758095554467104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942267341e105661%3A0x60628b5e842975cf!2sKali%20Eventos!5e0!3m2!1ses!2sar!4v1760986494945!5m2!1ses!2sar" className="w-full h-[300px] md:h-[360px]" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
               </div>
-              <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-2 text-primary hover:underline">
+              <a href="https://www.google.com/maps/place/Kali+Eventos/@-26.7580956,-65.2400799,19z/data=!4m6!3m5!1s0x942267341e105661:0x60628b5e842975cf!8m2!3d-26.7580956!4d-65.2400799!16s%2Fg%2F11c5w2w2w2?entry=ttu" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-2 text-primary hover:underline">
                 <MapPin className="w-4 h-4"/>
                 Abrir en Google Maps
               </a>
