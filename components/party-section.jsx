@@ -2,7 +2,7 @@
 import { Sparkles, MapPin } from "lucide-react";
 export function PartySection() {
     const placeName = "Kali Eventos";
-    const address = "Ingreso B° Buenos Aires, altura colectora norte";
+    const address = "Ingreso a b°  Buen Ayre Colectora Norte, Tafi viejo";
     const mapsQuery = `${placeName}, ${address}`;
     const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapsQuery)}`;
     return (<section className="py-20 px-4 bg-background relative overflow-hidden">
