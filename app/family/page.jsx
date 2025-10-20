@@ -19,11 +19,10 @@ export default function FamilyPage() {
       <main className="min-h-screen bg-background transition-colors duration-300">
         <HeroSection />
         <MusicSection />
-        <WaveDivider color="light"/>
+        <WaveDivider color="light" flip/>
         <InvitationSection />
-        <SectionDivider variant="hearts-simple"/>
         <PhotoGallery />
-        <SectionDivider variant="floral"/>
+          <SectionDivider variant="hearts-simple"/>
   <CeremonySection />
   <CelebrationSection />
         <SectionDivider variant="floral-elegant"/>

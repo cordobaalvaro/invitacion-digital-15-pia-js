@@ -22,12 +22,6 @@ export function CelebrationSection() {
             </p>
             <h3 className="font-serif text-2xl md:text-3xl text-foreground font-semibold">{address}</h3>
 
-            <div className="mt-2">
-              <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-primary hover:underline">
-                <MapPin className="w-4 h-4"/>
-                Abrir ubicación en Google Maps
-              </a>
-            </div>
           </div>
         </div>
       </div>
